@@ -36,7 +36,9 @@ void* primechecker(void *arguments){
 
 int main(){
 	int T, a, N;
+	printf("N = ");
 	scanf("%d", &N);
+	printf("T = ");
 	scanf("%d", &T);
 	int hitung = N/T;
 	int awal = 1;
